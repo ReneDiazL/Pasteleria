@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link href="./style/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body class="conten">
+  <!--INICIA MENÚ -->
+  <header>
+    <a href="#" class="logo">Pasteleria</a>
+      <nav>
+        <ul>
+          <li><a href="#Sabores">Sabores</a></li>
+          <li><a href="#Adornos">Adornos</a></li>
+          <li><a href="#Combinacion">Combinación</a></li>
+          <li><a href="#Combinacion">Selección de adorno</a></li>
+          <li><a href="#Pedido">Pedido</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </nav>
+  </header>
+  <!-- TERMINA MENÚ -->
+
+  <!--El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.-->
+
+  <section id="Sabores" class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center pb-4">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <table>
+            <tbody class="Precio">
+              <tr>
+                <th><h2 class="mb-4">Sabores</h2></th><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+              </tr>          
+                  <tr><td>Vainilla...................................$500</td></tr>
+                  <tr><td>Chocolate..............................$600</td></tr>
+                  <tr><td>3 Leches................................$400</td></tr>
+                  <tr><td>Fresas....................................$450</td></tr>
+                  <tr><td>Frutas.....................................$650</td></tr>
+                  <tr><td>Trufa y Moka..........................$800</td></tr>
+                  <tr><td>Cheesecake...........................$700</td></tr>
+                  <tr><td>Manzana o Zanahoria............$400</td></tr>
+                  <tr><td>Limón.....................................$200</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    
+  <!--El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.-->
+  <section id="Adornos" class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center pb-4">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <table>
+            <tbody class="Descripcion">
+              <tr>
+                <th><h2 class="mb-4">Adornos</h2></th><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+              </tr>          
+                  <tr><td>Adorno para XV años............................................................$90</td></tr>
+                  <tr><td>Adorno cumpleaños niña princesas......................................$60</td></tr>
+                  <tr><td>Adorno Boda.........................................................................$100</td></tr>
+                  <tr><td>Adorno Mickey mouse...........................................................$80</td></tr>
+                  <tr><td>Adorno Personalizado chico..................................................$50</td></tr>
+                  <tr><td>Adorno Personalizado mediano.............................................$80</td></tr>
+                  <tr><td>Adorno Personalizado grande...............................................$120</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--El cliente de la pastelería tendrá la posibilidad de combinar sabores dependiendo de sus preferencias.-->
+  <section id="Combinacion" class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center pb-4">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <table>
+            <tbody class="Combinacion">
+              <tr>
+                <th colspan="4" class="Select"><h2>Combinación</h2></th>
+              </tr>          
+                  <tr>
+                    <td>Cubierta
+                      <select name="select">
+                      <option value="value1" selected>Chocolate</option>
+                      <option value="value2">Vainilla</option>
+                      <option value="value3">Crema chantilly</option>
+                      <option value="value4">Chocolate fundido</option>
+                      <option value="value5">Fondant</option>
+                      <option value="value6">Crema pastelera</option>
+                      <option value="value7">Crema de mantequilla</option>
+                      </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+
+                    <td>Sabor del pan
+                      <select name="select">
+                      <option value="value1">Chocolate</option>
+                      <option value="value2">Vainilla</option>
+                      <option value="value3" selected>Nescafe</option>
+                      <option value="value4">Fresa</option>
+                      </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+
+                    <td>Tamaño
+                      <select name="select">
+                      <option value="value1">Chico</option>
+                      <option value="value2">Mediano</option>
+                      <option value="value3" selected>Grande</option>
+                      <option value="value4">Dos pisos</option>
+                      <option value="value5">Tres pisos</option>
+                      <option value="value5">Extra grande*</option>
+                      </select>
+                    </td>
+                  </tr>              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--El cliente de la pastelería tendrá la posibilidad de combinar adornos dependiendo de sus preferencias.-->
+  <section id="Combinacion" class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center pb-4">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <table>
+            <tbody class="Combinacion">
+              <tr>
+                <th colspan="4" class="Select1"><h2>Selección de adorno</h2></th>
+              </tr>          
+                  <tr>
+                    <td style="padding-left: 200px">Tipo de Adorno
+                      <select name="select">
+                      <option value="value1" selected>XV años</option>
+                      <option value="value2">Boda</option>
+                      <option value="value3">Mickey mouse</option>
+                      <option value="value4">princesas</option>
+                      <option value="value5">Personalizado chico</option>
+                      <option value="value6">Personalizado mediano</option>
+                      <option value="value7">Personalizado grande</option>
+                      <option value="value8">Crema de mantequilla</option>
+                      </select>
+                    </td>
+                    <td></td>
+                    <td></td>                
+                  </tr>              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--El cliente de la pastelería necesita poner en un formulario su pedido.-->
+
+  <!--El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos.-->
+  <section id="Pedido" class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center pb-4">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <table>
+            <tbody class="Formulario">
+                <th colspan="4" class="Formulario"><h2>Pedido</h2></th>          
+                  <tr>
+                    <td class="Datos">Datos
+                      <tr><td>
+                        <form   action="https://formspree.io/f/mjvlrpla"
+                        method="POST">
+                          <div class="elem-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" pattern=[A-Z\sa-z]{3,20} required>
+                          </div>
+                      </tr></td>
+                        
+                      <tr><td>
+                        <div class="elem-group">
+                          <label for="email">Correo electrónico</label>
+                          <input type="Email" id="Email" name="Email" placeholder="ejemplo@email.com" required>
+                          
+                          <label class="Telefono" for="Telefono">Teléfono</label>
+                          <input type="Telefono" id="Telefono" name="Telefono" placeholder="10 digitos" maxlength="10">
+                        </div>
+                      <tr></td>
+                        
+                      <tr><td>
+                          <div class="elem-group">
+                            <label for="department-selection">Cubierta</label>
+                              <select name="Cubierta" required>
+                                <option value="Chocolate" selected>Chocolate</option>
+                                <option value="Vainilla">Vainilla</option>
+                                <option value="Crema chantilly">Crema chantilly</option>
+                                <option value="Chocolate fundido">Chocolate fundido</option>
+                                <option value="Fondant">Fondant</option>
+                                <option value="Crema pastelera">Crema pastelera</option>
+                                <option value="Crema de mantequilla">Crema de mantequilla</option>
+                              </select>
+                        
+                            <label for="department-selection">Sabor del pan</label>
+                              <select name="Sabor del pan">
+                                <option value="Chocolate">Chocolate</option>
+                                <option value="Vainilla">Vainilla</option>
+                                <option value="Nescafe" selected>Nescafe</option>
+                                <option value="Fresa">Fresa</option>
+                              </select>
+
+                            <label for="department-selection">Tamaño</label>
+                              <select name="Tamaño">
+                                <option value="Chico">Chico</option>
+                                <option value="Mediano">Mediano</option>
+                                <option value="Grande" selected>Grande</option>
+                                <option value="Dos pisos">Dos pisos</option>
+                                <option value="Tres pisos">Tres pisos</option>
+                                <option value="Extra grande*">Extra grande*</option>
+                              </select>
+                          </div>
+                      </tr></td>  
+                      
+                      <tr><td class="Adornos">
+                        <label for="department-selection">Adornos</label>
+                              <select name="Adornos">
+                                <option value="XV años">XV años</option>
+                                <option value="Cumpleaños niña princesas">Cumpleaños niña princesas</option>
+                                <option value="Boda" selected>Boda</option>
+                                <option value="Mickey Mouse">Mickey Mouse</option>
+                                <option value="Personalizado chico">Personalizado chico</option>
+                                <option value="Personalizado mediano">Personalizado mediano</option>
+                                <option value="Personalizado grande">Personalizado grande</option>
+                              </select>
+                      </tr></td>
+                      
+                      <tr><td>
+                            <div class="elem-group">
+                              <label for="message">Solicitud</label>
+                            </div>
+                      </tr></td>   
+                      
+                      <tr><td>
+                          <div>
+                          <textarea class="texto"  id="message" name="Comentarios" placeholder="Escribe tu mensaje aquí." required></textarea>
+                          </div>
+                      </tr></td>
+                      
+                      <tr><td>
+                            <button class="Envio" type="submit">Enviar mensaje</button>
+                        </form>
+                      </tr></td>                   
+                    </td>   
+                  </tr>
+                </th>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!--El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.-->
+  <!--El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.-->
+  <!--El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.-->
+  <!--La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención-->
+
+  <div class="contacto">
+  <section id="Contacto">
+  <h1>Contacto</h1>
+    <p>Arquimedes #45 Col. Polanco V Seccion, Miguel Hidalgo, CDMX. 
+      <br>Horarios de atención a clientes:
+      <br>Lunes a Sábado:  8 a.m. – 8 p.m.
+      <br>Domingos: 9 a.m. – 8 p.m.
+    </p>
+    <br>
+  </div>
+</section>
+
+
+  <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("down",window.scrollY>0);
+    })
+  </script>
+
+<div class="cities">
+  <p style="text-align: right;">© 2022 Todos los derechos reservados Pastelería Delicias </p>
+</div> 
+</body>
+</html>
