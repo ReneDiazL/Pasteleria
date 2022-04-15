@@ -1,0 +1,382 @@
+@media screen and (max-width: 1200px){
+      
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #main-container{
+        background-image: linear-gradient(to right, rgba(157, 167, 194, 0.7),
+        rgba(95, 95, 179, 0.1)), url(../imags/Logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%  100%;
+        background-attachment: fixed;    
+    }
+    
+    .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+    }
+
+    header ul li a{
+        position: relative;
+        font-family: helvetica;
+        margin: 10px 15px;
+        text-decoration: none;
+        color: rgb(247, 238, 238);
+        letter-spacing: 10px;
+        font-weight: 600;
+        transition: 0.7s;
+        display: block;
+        padding: 20px;
+        font-size: xx-large;
+    }
+
+    .nav-menu a:hover, .btn-color{
+        background-color: #b9bdbe;
+        border-radius: 10px;
+    }
+
+    ul.color li.color a:hover, .btn-color{
+        background-color: #0fa0da;
+        border-radius: 10px;
+    }
+
+
+    .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #101111;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+    }
+
+    .nav-menu-item {
+    line-height: 70px;
+    }
+
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+    background: none;
+    color: #101011;
+    }
+
+    .nav-toggle {
+    display: block;
+    }
+
+    .nav-menu_visible {
+    left: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+    }
+
+    section.ftco-section{
+        text-align: center;
+        top: 100px;  left: 20px;
+        position: relative;
+        padding: 10px;
+        margin: 40px;
+        margin-top: 20px;
+        color: rgb(27, 25, 25);
+        font-size: x-large;
+        font-weight: bold;    
+    }
+
+    h2{
+        text-align: center;
+        left: 160px;
+        width: 150px;
+    }
+
+    .mb5{
+        text-align: center;
+        left: 20px;
+        width: 150px;
+    }
+
+    .mb4{
+        position: relative;
+        left: 380px;
+        width: 150px;
+    }
+
+    td.site1, td.site2{
+        position: inherit;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        padding: 50px 0 0 0;
+    }
+    
+    .img-pastel{
+        width: 200px;
+        height: 100px
+    }
+
+
+}
+@media only screen and (max-width: 995px) {
+
+    section.ftco-section{
+        text-align: center;
+        top: 100px;  left: 20px;
+        position: relative;
+        padding: 10px;
+        margin: 40px;
+        margin-top: 20px;
+        color: rgb(27, 25, 25);
+        font-size: x-large;
+        font-weight: bold;    
+    }
+
+    h2{
+        text-align: center;
+        left: 160px;
+        width: 150px;
+    }
+
+    .mb6{
+        position: relative;
+        left: 380px;
+        text-align: center;
+        width: 150px;
+    }
+
+    td.site2{
+        position: inherit;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        padding: 50px 0 0 0;
+    }
+    
+    .img-pastel{
+        width: 200px;
+        height: 100px
+    }
+}
+
+@media only screen and (max-width: 976px) {
+    
+    table{
+        position: relative;
+        left: 10px;
+    }
+
+    table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    #Id2{
+        position: absolute;
+        left: -50px;
+    }
+
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 70%;
+    }
+
+    tbody.Descripcion{
+        font-size: 70%;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    
+    #main-container{
+        background-image: linear-gradient(to right, rgba(157, 167, 194, 0.7),
+        rgba(95, 95, 179, 0.1)), url(../imags/Logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%  100%;
+        background-attachment: fixed;    
+    }
+
+    table{
+        position: relative;
+        left: 10px;
+    }
+    
+    table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 78%;
+    }
+
+}
+
+@media screen and (max-width: 774px){
+    table{
+        position: relative;
+        left: -30px;
+    }
+
+    td.site1{
+        font-size: 90%;
+    }
+
+   table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    table{
+        position: relative;
+        left: -30px;
+    }
+
+    table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 65%;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    #main-container{
+        background-image: linear-gradient(to right, rgba(157, 167, 194, 0.7),
+        rgba(95, 95, 179, 0.1)), url(../imags/Logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%  100%;
+        background-attachment: fixed;    
+    }
+
+    table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 58%;
+    }
+
+}
+
+@media screen and (max-width: 599px){
+    table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 52%;
+    }
+}
+
+@media screen and (max-width: 575px){
+
+    #main-container{
+        background-image: linear-gradient(to right, rgba(157, 167, 194, 0.7),
+        rgba(95, 95, 179, 0.1)), url(../imags/Logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%  100%;
+        background-attachment: fixed;    
+    }
+
+    header nav ul li a{
+        padding: 5px;
+    }
+    table.Formu{
+        position: absolute;
+        left: -105px;
+    }
+
+    .texto{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    td.site1{
+        font-size: 80%;
+    }
+
+    tbody.Formulario{
+        font-size: 50%;
+    }
+}

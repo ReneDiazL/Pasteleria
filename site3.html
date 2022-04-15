@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body class="contenido2">
+        <div id="main-container1">
+            <!--INICIA MENÚ -->
+            <header class="color">
+                <a href="../project0/index.html" class="logo logo1 nav-link">Pastelería</a>
+                    <nav class="nav color">
+                        <li class="home"><a href="../project0/index.html" class="color fa fa-home" ></a></li>
+                        <ul class="nav-menu down color">  
+                            <li class="nav-menu-item color"><a class="nav-menu-link nav-link color" href="../project0/site1.html">Sabores</a></li>
+                            <li class="nav-menu-item color"><a class="nav-menu-link nav-link color" href="../project0/site2.html">Adornos</a></li>
+                            <li class="nav-menu-item color btn-color"><a class="nav-menu-link nav-link color" href="../project0/site3.html">Pedido</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <button class="nav-toggle nav-toggle2">
+                        <i class="fas fa-bars"></i>  
+                    </button>
+            </header>
+
+            <div class="profile-page">
+                <div class="wrapper">
+                    <div class="page-header page-header-small" filter-color="green"></div>
+                    <div class="page-header-image" data-parallax="true"></div>
+                </div>
+            </div>     
+               
+            <!-- TERMINA MENÚ -->
+
+            <!-- Site 3 -->
+
+            <section id="Pedido" class="ftco-section">
+                <div class="container">
+                    <div class="row justify-content-center pb-4">
+                        <div class="col-md-12 heading-section text-center ftco-animate">
+                            <table class="Formu">
+                                <tbody class="Formulario">
+                                    <th colspan="4" class="Formulario mb5"><h2>Pedido</h2></th>          
+                                        <tr>
+                                            <td class="Datos">Datos
+                                                <tr><td>
+                                                
+                                                <form action="https://formspree.io/f/mjvlrpla"
+                                                method="POST">
+                                                
+                                                    <div class="elem-group">
+                                                        <label for="name">Nombre</label>
+                                                        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" pattern=[A-Z\sa-z]{3,20} required>
+                                                    </div>
+                                                </tr></td>
+
+                                                <tr><td>
+                                                    <div class="elem-group">
+                                                    <label for="email">Correo electrónico</label>
+                                                    <input type="Email" id="Email" name="Email" placeholder="ejemplo@email.com" required>
+                                                    
+                                                    <label class="Telefono" for="Telefono">Teléfono</label>
+                                                    <input type="Telefono" id="Telefono" name="Telefono" placeholder="10 digitos" maxlength="10">
+                                                    </div>
+                                                <tr></td>
+                                                    
+                                                <tr><td>
+                                                    <div class="elem-group">
+                                                        <label for="department-selection">Cubierta</label>
+                                                            <select name="Cubierta" required>
+                                                                <option value="Chocolate" selected>Chocolate</option>
+                                                                <option value="Vainilla">Vainilla</option>
+                                                                <option value="Crema chantilly">Crema chantilly</option>
+                                                                <option value="Chocolate fundido">Chocolate fundido</option>
+                                                                <option value="Fondant">Fondant</option>
+                                                                <option value="Crema pastelera">Crema pastelera</option>
+                                                                <option value="Crema de mantequilla">Crema de mantequilla</option>
+                                                            </select>
+                                                    
+                                                        <label for="department-selection">Sabor del pan</label>
+                                                            <select name="Sabor del pan">
+                                                                <option value="Chocolate">Chocolate</option>
+                                                                <option value="Vainilla">Vainilla</option>
+                                                                <option value="Nescafe" selected>Nescafe</option>
+                                                                <option value="Fresa">Fresa</option>
+                                                            </select>
+                            
+                                                        <label for="department-selection">Tamaño</label>
+                                                            <select name="Tamaño">
+                                                                <option value="Chico">Chico</option>
+                                                                <option value="Mediano">Mediano</option>
+                                                                <option value="Grande" selected>Grande</option>
+                                                                <option value="Dos pisos">Dos pisos</option>
+                                                                <option value="Tres pisos">Tres pisos</option>
+                                                                <option value="Extra grande*">Extra grande*</option>
+                                                            </select>
+                                                    </div>
+                                                </tr></td>  
+                                                
+                                                <tr><td class="elem-group">
+                                                    <label for="department-selection">Adornos</label>
+                                                        <select name="Adornos">
+                                                            <option value="XV años">XV años</option>
+                                                            <option value="Cumpleaños niña princesas">Cumpleaños niña princesas</option>
+                                                            <option value="Boda" selected>Boda</option>
+                                                            <option value="Mickey Mouse">Mickey Mouse</option>
+                                                            <option value="Personalizado chico">Personalizado chico</option>
+                                                            <option value="Personalizado mediano">Personalizado mediano</option>
+                                                            <option value="Personalizado grande">Personalizado grande</option>
+                                                        </select>
+                                                </tr></td>
+                                    
+                                                <tr><td>
+                                                    <div class="elem-group">
+                                                        <label for="message">Solicitud</label>
+                                                    </div>
+                                                </tr></td>   
+                                    
+                                                <tr><td>
+                                                    <div>
+                                                        <textarea class="texto"  id="message" name="Comentarios" placeholder="Escribe tu mensaje aquí." required></textarea>
+                                                    </div>
+                                                </tr></td>
+                                    
+                                                <tr><td>
+                                                    <button class="Envio" type="submit">Enviar mensaje</button>
+                                                </form>    
+                                                <br><br>     
+                                                </tr></td>                   
+                                            </td>   
+                                        </tr>
+                                    </th>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+            </section>
+            
+
+            <footer>
+                <div class="sities">
+                    <p style="text-align: right;">© 2022 Todos los derechos reservados Pastelería Mana</p>
+                </div> 
+            </footer>
+            
+        
+            <script type="text/javascript">
+                window.addEventListener("scroll",function(){
+                    var header = document.querySelector("header");
+                    header.classList.toggle("down",window.scrollY>0);
+                })
+            </script>
+            
+            <script
+            src="https://kit.fontawesome.com/7e5b2d153f.js"
+            crossorigin="anonymous">
+            </script>
+            <script defer src="index.js"></script>
+        </div>
+    </body>
+</html>
+
